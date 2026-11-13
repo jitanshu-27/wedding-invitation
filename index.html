@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8eee5">
+<title>Soni & Manish — The Wedding</title>
+<meta name="description" content="You are warmly invited to the wedding of Soni & Manish Kumar on 25 November 2026 at Anandee Homes Banquet, Noida.">
+<meta property="og:type" content="website"><meta property="og:title" content="Soni & Manish — The Wedding">
+<meta property="og:description" content="25 November 2026 · Anandee Homes Banquet, Noida. Join us and RSVP here.">
+<!-- TODO: replace with your real Vercel URL after deploying -->
+<meta property="og:image" content="https://YOUR-SITE.vercel.app/assets/images/og-cover.jpg"><meta property="og:url" content="https://YOUR-SITE.vercel.app/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%8D%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=Great+Vibes&family=Tiro+Devanagari+Hindi&display=swap">
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/enhancements.css">
+</head><body>
+<div id="petals" aria-hidden="true"></div>
+<button id="musicToggle" class="music-toggle" type="button" aria-label="Play background music" hidden>♫</button><audio id="bgMusic" loop preload="none"></audio>
+<section class="hero" id="top"><div class="hero-inner">
+ <div class="monogram">S <span style="color:#b48a45">&</span> M</div>
+ <div class="kicker">Together with our families</div><div class="script small">request the pleasure of your company</div>
+ <h1>Soni</h1><div class="amp">&</div><h1>Manish Kumar</h1>
+ <div class="couple-frame"><img fetchpriority="high" src="assets/images/couple.webp" alt="Soni and Manish"></div>
+ <div class="hero-date">25 · 11 · 2026</div><div class="kicker">A lifetime of togetherness begins</div>
+ <div class="scroll-cue">SCROLL TO SEE MAGIC <span>↓</span></div>
+</div></section>
+<section class="invite"><div class="wrap"><div class="orn">✧ ❀ ✧</div><div class="script">With the blessings of our elders</div>
+ <p class="hindi" lang="hi">हमारे परिवारों के आशीर्वाद से, आप सपरिवार सादर आमंत्रित हैं</p>
+ <p>Two hearts, two families, and one beautiful beginning. We warmly invite you to join us as we celebrate the wedding of</p>
+ <div class="names">Soni <span style="color:#b48a45">&</span> Manish Kumar</div>
+ <p>Your presence, love and blessings will make our celebration complete.</p><div class="orn">❧ ❀ ❧</div></div></section>
+<section class="families"><div class="wrap"><div class="kicker">Our beloved families</div><h2 class="section-title">With blessings from</h2>
+ <div class="family-row"><div class="family-card"><h3>Bride's Parents</h3><p>Gita Devi<br>&<br>Krishan Pal</p></div><div class="family-card"><h3>Groom's Parents</h3><p>Sarita Devi<br>&<br>Mahesh Mahto</p></div></div>
+</div></section>
+<section class="scratch"><div class="wrap"><div class="kicker">A little surprise for you</div><h2 class="section-title">Save the Date</h2><p class="copy">Scratch each card with your finger to reveal our special day.</p>
+ <div class="scratch-grid">
+  <div class="scratch-card"><strong>25</strong><small>DAY</small><button type="button">REVEAL</button></div>
+  <div class="scratch-card"><strong>NOV</strong><small>MONTH</small><button type="button">REVEAL</button></div>
+  <div class="scratch-card"><strong>2026</strong><small>YEAR</small><button type="button">REVEAL</button></div>
+ </div><div class="scratch-hint">✧ SCRATCH THE RED CARDS ✧</div></div></section>
+<section class="countdown-section"><div class="wrap"><div class="kicker">The countdown begins</div><h2 class="section-title">The Wedding</h2>
+ <div class="countdown-date">25 · 11 · 2026</div>
+ <div class="timer"><div><strong id="days">--</strong><span>DAYS</span></div><div><strong id="hours">--</strong><span>HOURS</span></div><div><strong id="mins">--</strong><span>MINS</span></div><div><strong id="secs">--</strong><span>SECS</span></div></div>
+ <p class="copy" id="countdownNote" hidden></p><div class="script" style="font-size:48px">Forever starts here</div></div></section>
+<section class="story"><div class="wrap"><div class="kicker">Our story</div><h2 class="section-title">A beautiful beginning</h2><div class="story-card"><img loading="lazy" src="assets/images/couple-story.webp" alt="Soni and Manish"><p>“A lifetime of togetherness begins with one sacred step.”</p><div class="orn">♡</div></div></div></section>
+<section class="venue"><div class="wrap"><div class="kicker">Where we celebrate</div><h2 class="section-title">The Venue</h2><div class="venue-box"><div class="orn">✧</div><h3>Anandee Homes Banquet</h3><p>C-4, Opposite Kendriya Vihar,<br>Sector 51, Noida</p><p><b>Nearest Metro:</b> Noida Sector 34</p><div id="venueExtras"></div></div><div class="map-wrap"><iframe title="Map of Anandee Homes Banquet" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Anandee+Homes+Banquet+C-4+Sector+51+Noida&output=embed"></iframe></div></div></section>
+<section class="schedule" id="schedule"><div class="wrap"><div class="kicker">The celebrations</div><h2 class="section-title">Wedding Schedule</h2><ol class="timeline" id="scheduleList"></ol></div></section>
+<section class="details-extra" id="dress-code">
+ <div class="wrap">
+  <div class="extra-card">
+   <p class="copy" style="font-family:Georgia,serif;font-style:italic">“The sacred vows to begin our forever.”</p>
+   <div class="dress-label">A little style note · Dress code</div>
+   <div class="dress-dots"><i style="background:#8f1d2c"></i><i style="background:#c69a42"></i><i style="background:#f1e7d6;border:1px solid #d8cbb7"></i></div>
+   <h3>Maroon · Gold · Ivory</h3>
+   <p><b>Traditional Indian attire</b><br>Sarees, lehengas, sherwanis & festive ethnic wear</p>
+   <div style="height:1px;background:rgba(126,57,64,.18);margin:22px 0"></div>
+   <p style="font-family:Georgia,serif;font-size:17px">We can't wait to celebrate with you</p>
+  </div>
+ </div>
+</section>
+<section class="rsvp"><div class="wrap"><div class="kicker">Kindly let us know</div><h2 class="section-title">Will you join us?</h2><p class="copy">Your presence will make this celebration whole.</p>
+ <form class="form-card" id="rsvpForm"><h3>Your details</h3>
+  <div class="field"><label for="guestName">Your name</label><input id="guestName" name="guestName" placeholder="Full name" required></div>
+  <div class="field"><label>Will you join us?</label><div class="choice-row"><button class="choice selected" type="button" data-answer="Joyfully accept">JOYFULLY ACCEPT ✨</button><button class="choice" type="button" data-answer="Regretfully decline">REGRETFULLY DECLINE</button></div><input type="hidden" id="attendance" value="Joyfully accept"></div>
+  <div class="field attend-only"><label for="party">Party size</label><select id="party"><option value="1">Just me</option><option value="2">2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option><option value="5+">5 or more guests</option></select></div>
+  <div class="field attend-only"><label>Events you’ll attend</label>
+   <div class="event-list">
+    <label class="event-option"><input type="checkbox" name="events" value="Haldi Ceremony"> <span>Haldi Ceremony</span></label>
+    <label class="event-option"><input type="checkbox" name="events" value="Mehndi Ceremony"> <span>Mehndi Ceremony</span></label>
+    <label class="event-option"><input type="checkbox" name="events" value="Wedding Ceremony"> <span>Wedding Ceremony</span></label>
+   </div>
+  </div>
+  <div class="field"><label for="advice">Marriage advice for us</label>
+   <textarea class="advice-box" id="advice" placeholder="Share something sweet, funny, or wise…"></textarea>
+  </div>
+  <div class="form-error" id="formError" role="alert" hidden></div><button class="btn submit" type="submit" id="submitBtn">Send RSVP ♡</button><div class="success" id="success">Your reply has been sent. ♡</div>
+  <p style="font-size:11px;line-height:1.7;color:#987d70;text-align:center;margin:14px 0 0">No phone number needed. Your reply goes straight to the couple’s families.</p>
+ </form></div></section>
+<section class="thankyou-wrap" id="thankyou">
+ <div class="wrap">
+  <div class="thankyou-panel" id="thankyouPanel">
+   <div class="checkmark">✓</div>
+   <h2 id="tyTitle">Thank You!</h2>
+   <p id="tyText">Your RSVP means so much to us.<br>We can’t wait to celebrate this beautiful beginning with you.</p>
+   <div class="script" style="font-size:34px;color:#a51f32;margin-top:22px">Soni & Manish</div>
+   <p style="letter-spacing:2px;font-size:11px">25 NOVEMBER 2026 · NOIDA</p>
+  </div>
+ </div>
+</section>
+<footer class="footer"><div class="script">Soni & Manish</div><p>25 NOVEMBER 2026 · NOIDA</p><div style="font-size:22px;color:#d9b98b">♡</div></footer>
+<script src="js/config.js" defer></script>
+<script src="js/main.js" defer></script>
+<script src="js/countdown.js" defer></script>
+<script src="js/details.js" defer></script>
+<script src="js/music.js" defer></script>
+<script src="js/rsvp.js" defer></script>
+</body></html>
